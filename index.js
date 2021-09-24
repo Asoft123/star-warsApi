@@ -8,7 +8,7 @@ function startApp() {
     if (err) throw err;
     console.log(`Server start on port: ${port}`);
     await sequelize.sync({ force: true });
-    console.log("Database synched");
+    console.log("Database synched and Connected");
   });
 }
 
