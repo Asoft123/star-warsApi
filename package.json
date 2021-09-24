@@ -33,6 +33,6 @@
     "swagger-ui-express": "^4.0.7"
   },
   "engines": {
-    "npm": "1.22.5"
+    "yarn": "1.22.5"
   }
 }
