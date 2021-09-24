@@ -34,7 +34,11 @@ function Main() {
     }
     next();
   });
-
+  app.get("/", (req, res) => {
+    res.send(
+      "Hi welcome, you're live on a star wars api, see this  link  'https://swapi-wars-restapi.herokuapp.com/docs', for the swagger docs "
+    );
+  });
   app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
   app.use("/movies", movieRoute);
   app.use("/comments", commentRoute);
