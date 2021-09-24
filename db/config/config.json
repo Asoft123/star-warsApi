@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "excellent",
-    "database": "star_wars_db",
+    "database": "star_wars",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
@@ -19,7 +19,7 @@
     "username": "asoft123",
     "password": "excellent",
     "database": "star_wars",
-    "host": "db4free.net",
+    "host": "db4free.net:3306",
     "dialect": "mysql",
     "operatorsAliases": false
   }
