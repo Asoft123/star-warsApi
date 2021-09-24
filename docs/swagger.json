@@ -220,7 +220,7 @@
         }
       }
     },
-    "commentResponseSuccess": {
+    "commentResponseOk": {
       "properties": {
         "status": {
           "type": "boolean",
@@ -276,7 +276,7 @@
         }
       }
     },
-    "postCommentSuccessResponse": {
+    "postCommentOkResponse": {
       "properties": {
         "status": {
           "type": "boolean",
@@ -292,7 +292,7 @@
         }
       }
     },
-    "postCommentBadResponse": {
+    "postComment400Response": {
       "properties": {
         "status": {
           "type": "boolean",
