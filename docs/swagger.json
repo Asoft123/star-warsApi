@@ -18,7 +18,7 @@
       "description": "Api for listing Star Wars data"
     }
   ],
-  "host": "swapi-wars-restapi.herokuapp.com/",
+  "host": "swapi-wars-restapi.herokuapp.com",
   "basePath": "/",
   "consumes": ["application/json"],
   "produces": ["application/json"],
