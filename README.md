@@ -10,13 +10,16 @@ movie, and getting the character list for a movie.<br>
 
 -   `cp` `.env.example` to `.env` and set your environment variables.
 -   Make sure you have Nodejs install on your local machine.
--   in your terminal, cd to app root
+-  copy the app folder cd into and run the the commands below.
 -   run `npm or yarn install`
 -   run  `nodemon`
 
 ### Api Docs on your Local Environment
 
--   visit `http://localhost:4000/api-docs` for API docs
+-   visit `http://localhost:4000/docs` for API docs
 
 
 
+### Please visit the live link on heroku
+
+- https://swapi-wars-restapi.herokuapp.com/docs
